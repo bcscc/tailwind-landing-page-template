@@ -45,9 +45,6 @@ function ResetPassword() {
         </section>
 
       </main>
-
-      <Banner />
-
     </div>
   );
 }
