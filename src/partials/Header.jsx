@@ -24,7 +24,7 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/home" className="block" aria-label="UNC Product Management">
+            <Link to="/" className="block" aria-label="UNC Product Management">
               <img className="w-12 h-12" src={Logo}></img>
             </Link>
           </div>
@@ -33,7 +33,7 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li> 
-                <Link to="/home" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</Link>
+                <Link to="/" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
               <li> 
                 <Link to="#lab" className="menu-scroll font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">PM Lab</Link>
