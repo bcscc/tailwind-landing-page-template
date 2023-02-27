@@ -19,7 +19,7 @@ import FeaturesBlocks from './partials/FeaturesBlocks';
 function App() {
 
   const location = useLocation();
-
+  
   useEffect(() => {
     AOS.init({
       once: true,
@@ -29,10 +29,12 @@ function App() {
     });
   });
 
+
   useEffect(() => {
     document.querySelector('html').style.scrollBehavior = 'auto'
     window.scroll({ top: 0 })
     document.querySelector('html').style.scrollBehavior = ''
+    AOS.refresh();
   }, [location.pathname]); // triggered on route change
 
   return (

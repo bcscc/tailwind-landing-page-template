@@ -36,16 +36,19 @@ function Header() {
                 <Link to="/" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
               <li> 
-                <Link to="#lab" className="menu-scroll font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">PM Lab</Link>
+                <a href="#lab" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">Lab</a>
               </li>
               <li> 
-                <Link to="#subscribe" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">Subscribe</Link>
+                <a href="#team" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">Team</a>
               </li>
               <li> 
-                <Link to="/signup" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">Login</Link>
+                <a href="#subscribe" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">Subscribe</a>
+              </li>
+              <li> 
+                <Link to="/" className="font-medium text-gray-600 hover:text-red-500 px-5 py-3 flex items-center transition duration-150 ease-in-out">Login</Link>
               </li>
               <li>
-                <Link to="/signin" className="btn-sm text-neutral-50 bg-red-600 hover:bg-red-300 ml-3">
+                <Link to="/" className="btn-sm text-neutral-50 bg-red-600 hover:bg-red-300 ml-3">
                   <span>Apply</span>
                   <svg className="w-3 h-3 fill-current text-neutral-50 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
